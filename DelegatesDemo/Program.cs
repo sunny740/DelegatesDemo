@@ -15,8 +15,7 @@ namespace DelegatesDemo
             Console.WriteLine("Addition is ={0}", obj(12, 15));  //(Single)
             Console.WriteLine();  // (Single)
 
-            //MultiCastDelegates multicast = new MultiCastDelegates();
-            //multicast.ImplementDelegate();
+            //MultiCastDelegates.ImplementDelegate(); //(Multicast)
 
             EventHandling Eventhandling = new EventHandling();
             Eventhandling.ImplementEvent();
